@@ -22,7 +22,7 @@ def step(points, model):
 
     # TODO : Implement step function for AutoEncoder. 
     # Hint : Use chamferDist defined in above
-    # Hine : You can compute chamfer distance between two point cloud pc1 and pc2 by chamfer_distance(pc1, pc2)
+    # Hint : You can compute chamfer distance between two point cloud pc1 and pc2 by chamfer_distance(pc1, pc2)
     
     preds = None
     loss = None
