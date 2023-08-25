@@ -219,6 +219,10 @@ After completing the aforementioned tasks, submit the followings for grading:
 2. Model checkpoint file that achieves the best performance for classification, segmentation, and auto-encoding each;
 3. Screenshot at the end of the training for classification, segmentation, and auto-encoding each.
 
+Screenshot Example:
+
+![image](Figure/Screenshot_example.png)
+
 ## Grading
 
 **You will receive a zero score if:**
