@@ -59,8 +59,7 @@ def main(args):
     global device
     device = "cpu" if args.gpu == -1 else f"cuda:{args.gpu}"
 
-    # TODO: Implement the model call
-    model : PointNetPartSeg()
+    model = PointNetPartSeg()
     model = model.to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
