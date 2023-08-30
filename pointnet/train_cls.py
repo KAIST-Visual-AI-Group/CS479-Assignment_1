@@ -129,6 +129,7 @@ def main(args):
     model.eval()
     with torch.no_grad():
         for points, labels in test_dl:
+            points, labels = points.to(device), labels.to(device)
             test_batch_loss, test_batch_acc = validation_step(
                 points, labels, model, test_acc_metric
             )
