@@ -107,7 +107,7 @@ class PointNetCls(nn.Module):
 
 
 class PointNetPartSeg(nn.Module):
-    def __init__():
+    def __init__(self, m=50):
         super().__init__()
 
         # returns the logits for m part labels each point (m = # of parts = 50).
