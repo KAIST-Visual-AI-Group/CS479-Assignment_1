@@ -101,6 +101,7 @@ def main(args):
         with torch.no_grad():
             val_epoch_loss = []
             for points, labels in val_dl:
+                points, labels = points.to(device), labels.to(device)
                 val_batch_loss, val_batch_acc = validation_step(
                     points, labels, model, val_acc_metric
                 )
