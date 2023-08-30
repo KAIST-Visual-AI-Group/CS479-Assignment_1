@@ -25,7 +25,7 @@ class STNKd(nn.Module):
 
     def forward(self, x):
         """
-        Input: [B,N,k]
+        Input: [B,k,N]
         Output: [B,k,k]
         """
         B = x.shape[0]
