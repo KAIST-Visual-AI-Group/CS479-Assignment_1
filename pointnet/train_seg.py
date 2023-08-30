@@ -138,6 +138,7 @@ def main(args):
         test_acc_metric = Accuracy()
         test_iou_metric = mIoU()
         for points, pc_labels, class_labels in test_dl:
+            points, pc_labels, class_labels = points.to(device), pc_labels.to(device), class_labels.to(device)
             test_batch_loss, test_batch_masked_preds, test_batch_acc, test_batch_iou = validation_step(
                 points,
                 pc_labels,
