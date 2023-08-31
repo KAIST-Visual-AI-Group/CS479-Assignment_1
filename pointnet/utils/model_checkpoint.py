@@ -35,7 +35,7 @@ class CheckpointManager:
         assert isinstance(epoch, int) and isinstance(metric, float)
 
         # filename = osp.join(self.dirpath, f"epoch={epoch}-{self.metric_name}={metric}.ckpt")
-        filename = osp.join(self.dirpath, f"{fname}_epoch{epoch}_metric:{metric}.ckpt")
+        filename = osp.join(self.dirpath, f"{fname}_epoch{epoch}_metric{metric}.ckpt")
 
         save_check = False
         if len(self._cache) < self.topk:
