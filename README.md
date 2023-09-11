@@ -114,7 +114,7 @@ pointnet
 
 PointNet takes 3D point clouds(# points, 3) as inputs and extracts a 1024-sized global feature latent vector, which contains the geometric information of the input point clouds. This global feature vector will be used in the downstream tasks; point cloud classification, segmentation, and auto-encoding. In this part, you implement PointNetFeat model that only results out the global feature vector so that you can utilize this model for implementing the remaining 3 tasks. 
 
-> :bulb: **The figure above is the guideline for the implementation, but you don't need to implement the code completely the same as it. Also, you can assume that each MLP layer in the figure consists of MLP, batch normalization, and activation.+**
+> :bulb: **The figure above is the guideline for the implementation, but you don't need to implement the code completely the same as it. You can assume that each MLP layer in the figure consists of MLP, batch normalization, and activation.**
 
 #### TODOs
 ```
