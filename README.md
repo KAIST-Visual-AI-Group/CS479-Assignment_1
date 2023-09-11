@@ -141,6 +141,11 @@ You can start training the model by the following command. Also, at the end of t
 python train_cls.py
 ```
 
+Also, you can change `batch_size`, `lr`, and `epochs` by using the command below.
+```bash
+python train_cls.py --batch_size {batch_size you want} --lr {lr you want} --epochs {epochs you want}
+```
+
 While training, if your model achieves the best result, model checkpoint will be saved automatically as `pointnet/classification/MM-DD_HH-MM-SS/Classification_ckpt_epoch{epoch}_metric:{val_Acc}.ckpt`. 
 
 
@@ -169,6 +174,11 @@ You can start training the model by the following command. Also, at the end of t
 
 ```bash
 python train_seg.py
+```
+
+Also, you can change `batch_size`, `lr`, and `epochs` by using the command below.
+```bash
+python train_seg.py --batch_size {batch_size you want} --lr {lr you want} --epochs {epochs you want}
 ```
 
 While you are running `train_seg.py`, you are able to see progress bars:
@@ -207,6 +217,11 @@ You can start training the model by the following command. Also, at the end of t
 
 ```
 python train_ae.py
+```
+
+Also, you can change `batch_size`, `lr`, and `epochs` by using the command below.
+```bash
+python train_ae.py --batch_size {batch_size you want} --lr {lr you want} --epochs {epochs you want}
 ```
 
 While training, if your model achieves the best result, model checkpoint will be saved automatically as `pointnet/auto_encoding/MM-DD_HH-MM-SS/AutoEncoding_ckpt_epoch{epoch}_metric:{val_CD}.ckpt`. 
