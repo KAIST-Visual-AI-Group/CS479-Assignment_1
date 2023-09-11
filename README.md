@@ -189,6 +189,8 @@ On ShapeNet Part test set:
 
 
 ### Task 3. Point Cloud Auto-Encoding
+![image](Figure/ae.png)
+
 The PointNet Auto-encoder comprises an encoder that inputs point clouds and produces a 1024-sized global feature latent vector, and an MLP decoder that expands this latent vector incrementally until it reaches N*3. This tensor is reshaped into (N, 3), representing N points in 3D coordinates.
 
 ### TODOs
@@ -212,11 +214,12 @@ On ModelNet40 test set:
 | ------ | ------------- |
 | Ours   | 0.0043        |
 
-## Submission Guidelines
 
-After completing the aforementioned tasks, submit the followings for grading:
+## What to Submit
+
+Compile the following files as a **ZIP** file named `{NAME}_{STUDENT_ID}.zip` and submit the file via Gradescope.
 1. 4 codes that you implemented: `model.py, train_ae.py, train_cls.py, train_seg.py`. (via Gradescope) ;
-2. Model checkpoint file that achieves the best performance for classification, segmentation, and auto-encoding each;
+2. Model checkpoint file that achieves the best performance for classification, segmentation, and auto-encoding with filename classification_checkpoint.pth;
 3. Screenshot at the end of the training for classification, segmentation, and auto-encoding each.
 
 Screenshot Example:
