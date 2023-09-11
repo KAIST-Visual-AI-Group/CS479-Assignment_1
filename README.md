@@ -112,7 +112,9 @@ pointnet
 
 ![image](Figure/feat.png)
 
-PointNet takes 3D point clouds(# points, 3) as inputs and extracts a 1024-sized global feature latent vector, which contains the geometric information of the input point clouds. This global feature vector will be used in the downstream tasks; point cloud classification, segmentation, and auto-encoding. In this part, you implement PointNetFeat model that only results out the global feature vector so that you can utilize this model for implementing the remaining 3 tasks.
+PointNet takes 3D point clouds(# points, 3) as inputs and extracts a 1024-sized global feature latent vector, which contains the geometric information of the input point clouds. This global feature vector will be used in the downstream tasks; point cloud classification, segmentation, and auto-encoding. In this part, you implement PointNetFeat model that only results out the global feature vector so that you can utilize this model for implementing the remaining 3 tasks. 
+
+> :bulb: **The figure above is the guideline for the implementation, but you don't need to implement the code completely the same as it. Also, you can assume that each MLP layer in the figure consists of MLP, batch normalization, and activation.+**
 
 #### TODOs
 ```
@@ -126,6 +128,8 @@ PointNet takes 3D point clouds(# points, 3) as inputs and extracts a 1024-sized 
 ![image](Figure/cls.png)
 
 In point cloud classification tasks, PointNet inputs point clouds (# points, 3) and generates a 1024-sized global feature latent vector, which is then reduced to the number of categories (k) through multi-layer perceptrons, forming logits for each category. 
+
+> :bulb: **The figure above is the guideline for the implementation, but you don't need to implement the code completely the same as it.**
 
 #### TODOs
 ```
@@ -161,6 +165,8 @@ On ModelNet40 test set:
 ![image](Figure/seg.png)
 
 For segmentation tasks, PointNet concatenates the second transformed feature with the global latent vector to form a point-wise feature tensor, which is then passed through an MLP to produce logits for m part labels.
+
+> :bulb: **The figure above is the guideline for the implementation, but you don't need to implement the code completely the same as it.**
 
 ### TODOs
 ```
@@ -202,6 +208,8 @@ On ShapeNet Part test set:
 ![image](Figure/ae.png)
 
 The PointNet Auto-encoder comprises an encoder that inputs point clouds and produces a 1024-sized global feature latent vector, and an MLP decoder that expands this latent vector incrementally until it reaches N*3. This tensor is reshaped into (N, 3), representing N points in 3D coordinates.
+
+> :bulb: **The figure above is the guideline for the implementation, but you don't need to implement the code completely the same as it.**
 
 ### TODOs
 ```
