@@ -218,8 +218,8 @@ On ModelNet40 test set:
 ## What to Submit
 
 Compile the following files as a **ZIP** file named `{NAME}_{STUDENT_ID}.zip` and submit the file via Gradescope.
-1. 4 codes that you implemented: `model.py, train_ae.py, train_cls.py, train_seg.py`. (via Gradescope) ;
-2. Model checkpoint file that achieves the best performance for classification, segmentation, and auto-encoding with filename classification_checkpoint.pth;
+1. 4 codes that you implemented: `model.py, train_ae.py, train_cls.py, train_seg.py`;
+2. Model checkpoint file that achieves the best performance for classification, segmentation, and auto-encoding each;
 3. Screenshot at the end of the training for classification, segmentation, and auto-encoding each.
 
 Screenshot Example:
