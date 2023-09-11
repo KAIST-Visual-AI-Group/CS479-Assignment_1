@@ -201,6 +201,8 @@ The PointNet Auto-encoder comprises an encoder that inputs point clouds and prod
 - Fill in the **TODO** in `model.py` > `PointNetAutoEncoder`
 - Fill in the **TODO** in `train_ae.py` > `step` and `train_step`
 
+> :bulb: **We recommend not using the T-Net in the AE task. That's why we provide the PointNetFeat class without T-Net inside the PointNetAutoEncoder class definition.**
+
 You can start training the model by the following command. Also, at the end of the training it will automatically test the model on ModelNet40 dataset.
 
 ```
