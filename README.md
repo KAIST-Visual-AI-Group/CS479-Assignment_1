@@ -3,7 +3,7 @@
     PointNet: Point Cloud Processing Network
   </h1>
   <p>
-    <a href=https://mhsung.github.io/kaist-cs479-fall-2023/ target="_blank"><b>KAIST CS479: Machine Learning for 3D Data</b></a><br>
+    <a href=https://mhsung.github.io/kaist-cs479-spring-2025/ target="_blank"><b>KAIST CS479: Machine Learning for 3D Data</b></a><br>
     Programming Assignment 1    
   </p>
 </div>
