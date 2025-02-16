@@ -11,7 +11,8 @@
 <div align=center>
   <p>
     Instructor: <a href=https://mhsung.github.io target="_blank"><b>Minhyuk Sung</b></a> (mhsung [at] kaist.ac.kr)<br>
-    TA: <b>Hyunjin Kim</b>  (rlaguswls98 [at] kaist.ac.kr)      
+    TA: <b>Jaihoon Kim</b>  (jh27kim [at] kaist.ac.kr)<br>      
+    Credit: <b>Hyunjin Kim</b>  (rlaguswls98 [at] kaist.ac.kr)      
   </p>
 </div>
 
