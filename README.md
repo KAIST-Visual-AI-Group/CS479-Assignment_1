@@ -120,7 +120,7 @@ PointNet takes 3D point clouds(# points, 3) as inputs and extracts a 1024-sized 
 ```
 - Fill in the **TODO** in model.py > PointNetFeat class
 
-※ When implementing PointNetFeat, you can utilize `STDkd` we give you in `model.py` code. 
+※ When implementing PointNetFeat, you can utilize `STNKd` we give you in `model.py` code. 
 
 ### Task 1. Point Cloud Classification
 ![image](Figure/cls.png)
