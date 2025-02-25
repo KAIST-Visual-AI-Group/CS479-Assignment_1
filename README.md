@@ -189,7 +189,8 @@ While you are running `train_seg.py`, you are able to see progress bars:
 
 ![image](https://user-images.githubusercontent.com/37788686/158202971-159e4dc3-199a-4cf2-9b12-c01059a06a4c.png)
 
-ShapeNet part dataset will automatically be downloaded on `data` directory when `train_seg.py` is first executed.
+ShapeNet part dataset will automatically be downloaded on `data` directory when `train_seg.py` is first executed. 
+If you encounter network issue when downloading the dataset, proceed to the below link for manual download. [ShapeNet manual download](https://onedrive.live.com/?authkey=%21ALKmMDfOhwxH43k&id=0CE615B143FC4BDC%21188223&cid=0CE615B143FC4BDC&parId=root&parQt=sharedby&parCid=0881611C8E27C84D&o=OneUp)
 
 We provide the code to measure instance mIoU in `utils/metrics.py`.
 
